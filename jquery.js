@@ -1,0 +1,39 @@
+$(document).ready(function(){
+    $(".course1").hover(function(){
+        $(".mp").toggleClass('btnCourses1Hover');    
+    });
+});
+$(document).ready(function(){
+    $(".course2").hover(function(){
+        $(".mp1").toggleClass('btnCourses1Hover');    
+    });
+});
+$(document).ready(function(){
+    $(".course3").hover(function(){
+        $(".mp2").toggleClass('btnCourses1Hover');    
+    });
+});
+$(document).ready(function(){
+    $(".mp").click(function(){
+        $(".msg").show()
+    });
+    $(".close").click(function(){
+        $(".msg").hide()
+});
+});
+$(document).ready(function(){
+    $(".mp2").click(function(){
+        $(".msg").show()
+    });
+    $(".close").click(function(){
+        $(".msg").hide()
+});
+});
+$(document).ready(function(){
+    $(".mp1").click(function(){
+        $(".msg").show()
+    });
+    $(".close").click(function(){
+        $(".msg").hide()
+});
+});

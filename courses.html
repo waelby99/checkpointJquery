@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8"/>
+    <title>Courses</title>
+    <script src="js/JavaScript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+            <div class="logo">
+                    <a href="#"><img src="https://gomycode.tn/images/section2GMCLogo.png" style="width:70px;height:70px;"/>
+            </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+    </nav>
+    <center>
+        <div class="msg">
+        This is GoMyCode Track.                                               <div class="close"><a href="#" style="color: white;text-decoration: none;text-align: right;">x</a></div> 
+        Each track has its own goal.
+        By adopting this track, you chose your own goal.
+        </div>
+        <br><br><br>
+        <h1>Courses</h1>
+        <div class="b1">
+            <div class="course1"><img src="res/photo2.png" class="c1"/><button class="mp">View More</button></div>
+            <div class="course3"><img src="res/photo3.png" class="c3"/><button class="mp2">View More</button></div>
+            <div class="course2"><img src="res/photo4.png" class="c2"/><button class="mp1">View More</button></div>
+        </div>
+        <h4>FeedBack</h4>
+        <button onclick="bold()">B</button>
+        <button onclick="italic()">I</button>
+        <button onclick="underline()">Underline</button>
+        <select id="tle" onchange="taille()">
+            <option value="5px">5px</option>
+            <option value="10px">10px</option>
+            <option value="15px">15px</option>
+        </select>
+        <select id="fmly" onchange="font()">
+            <option>Arial</option>
+            <option>Sans Serif</option>
+            <option>Georgia</option>
+        </select><br><br>
+        <textarea id="bb" cols="100" rows="6"></textarea>
+</center>
+</body>
+</html>
